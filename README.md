@@ -19,8 +19,12 @@ Build:
 npm run build
 ```
 
-## ☕ Descrição do Projeto
 
+## Demonstração:
+
+- https://imdb-react.vercel.app/
+
+
+## ☕ Descrição 
 Para este projeto foi utilizado React.js e Redux, alguns Components do Bootstrap para auxiliar nos grids; <br><br>
-Todos os dados (imagens, e textos) foram consumidos a partir da api (https://developers.themoviedb.org/3);
-
+Todos os dados (imagens, e textos) foram consumidos a partir da api (https://developers.themoviedb.org/3); <br><br>
