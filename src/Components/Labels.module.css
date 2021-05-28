@@ -1,0 +1,26 @@
+.rate, .release{
+    background-color: rgb(21 21 21 / 70%);
+    color: #fff;
+    width: max-content;
+    padding: .5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.rate{
+    margin-left: 1rem;
+}
+
+.rate svg{
+    color: yellow !important;
+}
+
+.release{
+    margin-right: 1rem;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

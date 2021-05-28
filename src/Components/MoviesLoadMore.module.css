@@ -1,0 +1,15 @@
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  display: block;
+  width: 62px;
+  height: 62px;
+  background: black;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  font-family: Roboto, sans-serif;
+  border: none;
+}

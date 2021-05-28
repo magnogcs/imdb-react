@@ -1,0 +1,91 @@
+.list {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  grid-template-rows: 50px;
+  align-items: center;
+  gap: 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.acessos {
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.card{
+  transform: translateX(-50px);
+	opactity: 0;
+	animation: animeLeft 1s forwards;
+  position: relative;
+  transition: top .5s;
+  top: 0;
+  cursor: pointer;
+}
+
+.card:hover{
+  top: -20px;
+}
+
+@keyframes animeLeft{
+	to {
+		transform: initial;
+		opactity: initial;
+	}
+}
+
+.card{
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.modalsize{
+  max-width: 1200px !important;
+}
+
+.modal_content img{
+ width: 100%;
+}
+
+.opacity{
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  min-height: 100vh;
+ 
+  
+}
+
+.bgModal{
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+@media (min-width: 1776px){
+  .modalsize{
+    max-width: 1500px !important;
+  }
+}
+

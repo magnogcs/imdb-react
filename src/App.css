@@ -1,0 +1,45 @@
+/* Bootstrap adjustment */
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #313e4c;
+}
+
+.modal-content{
+  background-color: #191f26 !important; 
+  color: #fff !important;
+}
+
+.modal-header{
+  border-bottom: none
+}
+
+.close{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.modal-backdrop.show {
+  opacity: 0.9;
+}
+
+@media (min-width: 768px){
+  .container {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+}
+
+
+.anime {
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: anime 0.3s forwards;
+}
+
+@keyframes anime {
+  to {
+    transform: initial;
+    opacity: 1;
+  }
+}
